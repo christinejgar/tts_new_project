@@ -29,9 +29,9 @@ class Battle
 
 end
 
-bear = Bear.new('Yogi', 100, 20)
-ninja = Ninja.new('Chucky', 100, 25)
-battle = Battle.new(bear, ninja) # the battle is created between the bear and the ninja via line 2 and 3
+bear = Bear.new('Panda', 100, 30)
+ninja = Ninja.new('Jet Li', 100, 20)
+battle = Battle.new(bear, ninja) # the battlLi', created between the bear and the ninja via line 2 and 3
 
 yogi_name = battle.fighter1.name #indicating the name for the bear as fighter1 from the battle file and .name is because of attr_reader in fighter file.
 chuck_name = battle.fighter2.name
